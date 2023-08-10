@@ -20,3 +20,8 @@ Este proyecto esta desarrollado en Node14 y Express
 - [axios](https://www.npmjs.com/package/axios) - Utilizada para consumo API externas
 - [chai](https://www.chaijs.com/) - Utilizada para construcción de test
 - [mocha](https://mochajs.org/) - Utilizada para construcción de test
+
+# Para ejecutar el proyecto contenerizado
+
+- Ejecutar el comando `docker build . -t toolbox/toolbox-api`
+- Una vez construida la imagen ejecutar el comando `docker run -p 3000:3000 toolbox/toolbox-api`
